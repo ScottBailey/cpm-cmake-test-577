@@ -9,6 +9,5 @@ Execute the `go.sh` script to creat trace files for inital and subsequent runs w
 Let me suggest meld as a nice diff tool.
 
 ```bash
-meld set_1.trace unset_1.trace &
-meld set_2.trace unset_2.trace &
+meld trace_set trace_unset
 ```
